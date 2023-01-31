@@ -1,0 +1,93 @@
+.profile-root{
+    display: grid;
+    place-items: center;
+    max-height: 90vh;
+    padding: 10px;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 93vh;
+    align-items: center;
+    
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.corner-buttons{
+    color: #7f7f7f;
+    position: absolute;
+    font-size: 120%;
+    padding: 10px;
+    aspect-ratio: 1;
+}
+
+.profile-back-button{
+    left: 3vh;
+}
+
+.profile-logout-button{
+    right: 3vh;
+}
+
+.profile-pic{
+    color: #e1e1e1;
+    font-size: 500%;
+}
+
+.profile-user-cart{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    overflow: auto;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.profile-user-cart::-webkit-scrollbar{
+    width: 0;
+}
+
+.profile-cart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-height: 63vh;
+    padding: 10px;
+    color: #7b66cf;
+}
+
+.profile-checkout-button{
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+
+    bottom: 0px;
+    border: none;
+    background-color:  #7b66cf;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-family: 'Varela Round', sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For large screens: */
+    .profile-container {
+        width: 30%;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+        padding: 20px 10px;
+    }
+
+    .profile-user-cart{
+        width: 93%;
+    }
+}

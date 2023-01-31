@@ -1,0 +1,43 @@
+
+.products-container{
+    display: grid;
+    padding: 20px;
+    gap:20px;
+    max-width: 100;
+
+    overflow: hidden;
+
+    grid-template-columns: repeat(auto-fit, minmax(150px, 3fr));
+}
+
+.top-container{
+    position:sticky;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding:20px 0;
+
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.products-container::-webkit-scrollbar{
+    width: 0;
+    background-color: red;
+}
+
+.user-button{
+    color: #e1e1e1;
+    font-size: 4.5vh;
+    margin-left: 2vh;
+    z-index: 100;
+}
+
+.title{
+    position: absolute;
+    width: 100%;
+    font-size: 4vh;
+    text-align: center;
+    
+    color: #4b2d72;
+}

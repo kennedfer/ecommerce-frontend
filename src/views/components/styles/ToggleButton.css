@@ -1,0 +1,18 @@
+.toggle-container{
+    display: flex;
+    width:90%;
+    gap: 10px;
+}
+
+.toggle-container button{
+    padding: 15px;
+    flex-grow: 1;
+    border: none;
+    border-radius: 7px;
+    transition: 0.2s;
+}
+
+.toggle-active{
+    background-color: #7b66cf;
+    color: white;
+}

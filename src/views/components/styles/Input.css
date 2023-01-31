@@ -1,0 +1,30 @@
+.input-container{
+    display: flex;
+    gap: 5px;
+    width: 90%;
+    border: 1px solid #7b66cf;
+    border-radius: 10px;
+}
+
+.input-container input{
+    border: none;
+    outline: none;
+    border-radius: 0 10px 10px 0;
+    font-size: 125%;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(113, 113, 113);
+    width: 90%;
+}
+
+.input-container input::placeholder{
+    color: rgb(167, 167, 167);
+}
+
+
+.input-container span{
+    background-color: #7b66cf;
+    color: white;
+    padding: 15px;
+    border-radius: 5px 0 0 5px;
+}
