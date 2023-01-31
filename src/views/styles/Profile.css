@@ -23,14 +23,15 @@
     font-size: 120%;
     padding: 10px;
     aspect-ratio: 1;
+    top: 5px;
 }
 
 .profile-back-button{
-    left: 3vh;
+    left: 5px;
 }
 
 .profile-logout-button{
-    right: 3vh;
+    right: 5px;
 }
 
 .profile-pic{

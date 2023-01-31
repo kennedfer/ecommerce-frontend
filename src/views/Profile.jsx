@@ -119,7 +119,7 @@ const Profile = (props) => {
           </div>
         </div>
 
-        <button onClick={checkoutProducts} className="profile-checkout-button">
+        <button className="profile-checkout-button">
           CONFIRMAR - ${total},00
         </button>
       </div>
