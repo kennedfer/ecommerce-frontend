@@ -2,3 +2,5 @@
 ## Próximas implementações:
 - ✅ ~~...~~
 - ⬜️ Multitoast
+- ✅ ~~Lista de pedidos~~
+- ✅ ~~Tela de pagamento~~
